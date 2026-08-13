@@ -871,9 +871,9 @@ Clarity takes precedence over maximal modularization.
 
 ------------------------------------------------------------------------
 
-# 18. MLU Workflow Parity
+# 18. Course Workflow Parity
 
-The synthetic project should intentionally reproduce the broad workflow of
+The synthetic project should follow the broad workflow of
 previously-taken courses' notebooks while replacing the original external dataset
 with Latent Forge synthetic data.
 
@@ -1023,7 +1023,7 @@ It does **not** require every known recommendation algorithm.
 Dave wants to understand the mathematics deeply but also wants to work
 quickly.
 
-During active MLU AWS SageMaker or notebook sessions, preferred guidance is:
+During active notebook sessions, preferred guidance is:
 
 - approximately 2–4 executable steps at a time,
 - then inspect results,
@@ -1109,7 +1109,7 @@ Recommended trunk:
 2. Generate the first reproducible synthetic dense ground-truth world.
 3. Produce a sparse observation set satisfying the target support
    constraints.
-4. Reproduce the MLU-style exploratory analysis on synthetic data.
+4. Reproduce previous courses' exploratory analysis on synthetic data.
 5. Implement / verify the simple baselines.
 6. Train a basic low-rank factorization model.
 7. Establish a reproducible validation result.
@@ -1140,7 +1140,7 @@ Important questions for upcoming sessions include:
   enforced without distorting sampling?
 - How should dense ground truth be kept unavailable to training while
   remaining available for diagnostics?
-- What factorization implementation most closely supports both the MLU
+- What factorization implementation most closely supports both the previous courses'
   learning progression and later experimentation?
 - Which first model improvement gives the highest learning value per unit
   complexity?
