@@ -72,10 +72,10 @@ purpose or accidentally expanding exploratory branches into required work.
 
 # 1. Project Origin and Intent
 
-Latent Forge began during discussion of the MLU mathematics course's
-Factorization Recommender final-project preparation.
+Latent Forge began during discussion of the some ML certification and mathematics courses'
+Factorization Recommender project preparation.
 
-The MLU work uses a sparse user-item ratings matrix and develops a
+The previous work uses a sparse user-item ratings matrix and develops a
 matrix-factorization recommender beginning from a simple rank-1 baseline.
 Dave wanted a controlled independent environment in which he could:
 
@@ -133,7 +133,7 @@ or, where appropriate:
 E. Potentially Integrable Independent Tooling
 ```
 
-The project extends learning begun through general MLU educational material
+The project extends learning begun through general educational material
 but is independently designed as a synthetic-data experimentation and
 portfolio project.
 
@@ -141,7 +141,6 @@ No employer-specific:
 
 - datasets,
 - recommendation systems,
-- internal implementations,
 - confidential workflows,
 - task details,
 - or proprietary infrastructure
