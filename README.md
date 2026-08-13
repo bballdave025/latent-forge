@@ -1,9 +1,9 @@
 # Latent Forge
 
-Lean experimental repository for the MLU recommender-system final project.
+Lean experimental repository for a recommender-system project.
 
 ## Trunk
-Improve holdout MSE with small, interpretable experiments built from the course rank-1 / matrix-factorization baseline.
+Improve holdout MSE with small, interpretable experiments built from the rank-1 / matrix-factorization baseline.
 
 ## Dave Rule
 Before implementing an idea:
