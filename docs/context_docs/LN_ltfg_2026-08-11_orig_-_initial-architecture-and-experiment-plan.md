@@ -220,7 +220,7 @@ Interpretation:
 > Books differ in their average reception, but users are treated as
 > identical.
 
-This is the rank-1 baseline most closely corresponding to the MLU
+This is the rank-1 base most closely corresponding to previous courses' 
 preparation notebook discussed in the originating chat.
 
 ## 4.3 User Mean
@@ -281,7 +281,7 @@ means:
 
 # 5. Collaborative Filtering
 
-The actual MLU final-project material also involves **collaborative
+The actual previous project material also involves **collaborative
 filtering**.
 
 The important interpretation for Latent Forge is:
