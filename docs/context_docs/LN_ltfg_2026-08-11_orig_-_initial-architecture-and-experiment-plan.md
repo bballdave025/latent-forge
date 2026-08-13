@@ -10,8 +10,7 @@ Latent Forge
 **Description:**
 A synthetic-data playground for learning matrix factorization,
 collaborative filtering, latent representations, and recommender-system
-experimentation. The project extends learning begun in an MLU mathematics
-course into an independent portfolio project using controlled synthetic
+experimentation. The project extends learning from several courses into an independent portfolio project using controlled synthetic
 data and progressively richer recommender-system experiments.
 
 ---
@@ -31,7 +30,7 @@ date +'%s_%Y-%m-%dT%H:%M:%S%z'
 Backpack Sternum Strap Repair
 
 **Also involving:**
-- MLU mathematics / Factorization Recommender preparation
+Mathematics / Factorization Recommender preparation
 - synthetic recommender-system dataset design
 - matrix factorization and collaborative filtering
 - latent-space interpretation
@@ -259,9 +258,7 @@ This separates:
 ## 4.5 Latent Factor Model
 
 $$
-\hat R^i_j
-=
-\mu + b^i + c_j + U^i_k V^k_j
+\hat R^i_j = \mu + b^i + c_j + U^i_k V^k_j
 $$
 
 The repeated index $k$ is summed over latent dimensions.
@@ -429,17 +426,7 @@ The planned generator may contain approximately:
 A conceptual rating generator is:
 
 $$
-R^i_j
-=
-\mu
-+
-b^i
-+
-c_j
-+
-U^i_k V^k_j
-+
-\epsilon^i_j.
+R^i_j = \mu + b^i + c_j + U^i_k V^k_j + \epsilon^i_j.
 $$
 
 The exact model should remain configurable rather than frozen prematurely.
@@ -584,11 +571,7 @@ flatter noise floor.
 ## Stable rank
 
 $$
-r_{\mathrm{stable}}
-=
-\frac{\|R\|_F^2}{\|R\|_2^2}
-=
-\frac{\sum_a \sigma_a^2}{\sigma_1^2}.
+r_{\mathrm{stable}} = \frac{\|R\|_F^2}{\|R\|_2^2} = \frac{\sum_a \sigma_a^2}{\sigma_1^2}.
 $$
 
 ## Entropy / effective rank
@@ -892,7 +875,7 @@ Clarity takes precedence over maximal modularization.
 # 18. MLU Workflow Parity
 
 The synthetic project should intentionally reproduce the broad workflow of
-the MLU preparation notebook while replacing the original external dataset
+previously-taken courses' notebooks while replacing the original external dataset
 with Latent Forge synthetic data.
 
 The desired conceptual progression is:
@@ -923,13 +906,13 @@ generate final prediction CSV
 
 The final CSV is for workflow parity and portfolio demonstration.
 
-It is **not** an MLU leaderboard submission.
+It is **not** a leaderboard submission.
 
 ------------------------------------------------------------------------
 
 # 19. Evaluation
 
-The MLU project uses holdout prediction quality based on squared error.
+The other projects used holdout prediction quality based on squared error.
 
 Latent Forge should therefore preserve:
 
