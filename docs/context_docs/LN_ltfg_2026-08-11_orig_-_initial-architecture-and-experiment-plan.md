@@ -1179,7 +1179,7 @@ When work resumes:
 2. Start with the synthetic-data generator and ensure the dense truth,
    sparse observations, and metadata/JSON layers have clearly separated
    responsibilities.
-3. Run the first MLU-parallel exploration and baseline path.
+3. Run the first exploration and baseline path, following the general pattern of previous courses.
 4. Stop after a small executable batch, inspect the result, and choose the
    next experiment deliberately.
 
