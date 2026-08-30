@@ -156,7 +156,8 @@ The reconstructed notebook currently uses:
 The zero in an unobserved entry of `S_*` is a storage placeholder, **not
 a zero-star rating**.
 
-# Original Assignment → Latent Forge Variable Equivalences
+<!--
+# Original MLU Assignment → Latent Forge Variable Equivalences
 
 The right arrow means "the old assignment variable is now represented in
 Latent Forge as":
@@ -210,6 +211,8 @@ distinction.
 
 This mapping is intentionally a lean working dictionary, not a
 requirement to catalog every historical variable before continuing.
+
+-->
 
 # Current Data-to-Matrix Construction
 
@@ -294,9 +297,7 @@ $$
 or:
 
 $$
-\hat{\mathbf R}
-=
-\mathbf 1_n\boldsymbol\mu_{\rm item}^\mathsf T.
+\hat{\mathbf R} = \mathbf 1_n\boldsymbol\mu_{\rm item}^\mathsf T.
 $$
 
 This is a constrained `k=1` factorization:
@@ -325,9 +326,7 @@ $$
 or:
 
 $$
-\hat{\mathbf R}
-=
-\boldsymbol\mu_{\rm user}\mathbf 1_m^\mathsf T.
+\hat{\mathbf R} = \boldsymbol\mu_{\rm user}\mathbf 1_m^\mathsf T.
 $$
 
 This is the complementary constrained `k=1` factorization:
@@ -356,9 +355,7 @@ Gaussian observation model. The implemented masked mean-squared error
 is:
 
 $$
-\mathcal L(A,F)
-=
-\frac{1}{N_{\rm obs}}
+\mathcal L(A,F) = \frac{1}{N_{\rm obs}}
 \sum_{i,j}
 R^i{}_j
 \left(
@@ -835,9 +832,7 @@ The current selected progression is:
 6.  Later fuller bias-plus-latent model:
 
 $$
-\hat R^i{}_j
-=
-\mu+b^i+c_j+U^i{}_\ell V^\ell{}_j.
+\hat R^i{}_jb = \mu+b^i+c_j+U^i{}_\ell V^\ell{}_j.
 $$
 
 Generator complexity should independently increase one assumption at a
