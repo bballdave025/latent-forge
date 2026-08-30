@@ -928,9 +928,9 @@ Use a small executable batch:
     derivation.
 
 The first two steps are the preferred immediate re-entry task if only a
-short work session is available.
+short work session is available. Do not skip the global-mean baseline merely because the item-mean and user-mean baselines are already implemented; it is the intentionally simpler reference point for the entire baseline hierarchy.
 
-After those are understood and stable, prepare/review
+After those first two steps are understood and stable, prepare/review
 `first_checkpoint_notebook_as_markdown.md` rather than trying to polish
 it prematurely.
 
